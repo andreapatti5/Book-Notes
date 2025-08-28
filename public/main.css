@@ -1,0 +1,42 @@
+body {
+    background-color: rgb(102, 102, 226);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.main-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(152, 243, 212);
+    width: 600px;
+    height: 800px;
+}
+
+#classics-box {
+    display: flex;
+    background-color: ghostwhite;
+    width: 600px;
+    height: 200px;
+    padding-top: 10px;
+}
+
+#fantasy-box {
+    display: flex;
+    background-color: ghostwhite;
+    width: 600px;
+    height: 200px;
+    padding-top: 10px;
+}
+
+#essay-box {
+    display: flex;
+    background-color: ghostwhite;
+    width: 600px;
+    height: 200px;
+    padding-top: 10px;
+}
