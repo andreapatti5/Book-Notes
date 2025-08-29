@@ -7,20 +7,41 @@
     <link href="/main.css" rel="stylesheet">
 </head>
 <body>
-    <div>
-        <h1>Ciao, questo è il mio sito dove parlo di libri!</h1>
-    </div>
+    <div id="container">
+        <h1>Questo è la lista dei miei libri preferiti!</h1>
+
         <div class="main-box">
-            <div id="classics-box">
-                <h3>Classici</h3>
+            <div class="book-box">
+                <h3>Giallo</h3>
+                    <div class="book-list">
+                        <div class="book">
+                            <img src="<%= image %>" alt="cover1" height="100px" width="75px">
+                            <br/>
+                            <%= title %> 
+                            <%= author %>
+                        </div>
+                        <div class="book">Libro 2</div>
+                        <div class="book">Libro 3</div>
+                    </div>
             </div>
-            <div id="fantasy-box">
+            <div class="book-box">
                 <h3>Fantascienza</h3>
+                    <div class="book-list">
+                        <div class="book">Libro 1</div>
+                        <div class="book">Libro 2</div>
+                        <div class="book">Libro 3</div>
+                    </div>
             </div>
-            <div id="essay-box">
-                <h3>Saggi</h3>
+            <div class="book-box">
+                <h3>Storia</h3>
+                    <div class="book-list">
+                        <div class="book">Libro 1</div>
+                        <div class="book">Libro 2</div>
+                        <div class="book">Libro 3</div>
+                    </div>
             </div>
 
         </div>
+    </div>
 </body>
 </html>
